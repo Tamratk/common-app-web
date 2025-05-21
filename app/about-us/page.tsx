@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TopBar from "@/components/TopBar";
 import {
   CheckCircle,
   User,
@@ -20,6 +21,7 @@ const ACCENT_COLOR = "#e9e5f8";
 export default function AboutUsSection() {
   return (
     <>
+      <TopBar title="About Us" />
       {/* About Us Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 mx-auto md:px-6">
